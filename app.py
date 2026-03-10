@@ -36,7 +36,7 @@ if prompt := st.chat_input("Ask me anything..."):
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "openai/gpt-3.5-turbo",
+                    "model": "minimax/minimax-01",
                     "messages": st.session_state.messages,
                 },
             )
